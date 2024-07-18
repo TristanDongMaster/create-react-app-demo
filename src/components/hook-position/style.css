@@ -1,0 +1,7 @@
+.position-container {
+    position: relative;
+    background: white;
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+}
