@@ -1,6 +1,10 @@
+# react中文网相关demo源码
+
+学习教程源码合集
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://react.docschina.org/learn
 
 ## Available Scripts
 
