@@ -10,14 +10,16 @@ import Fade from '../components/hook-fade/index'
 import Counter from '../components/hook-counter/index'
 import Lazy from '../components/lazy-markdown/index'
 import Memo from '../components/memo/index'
+import { Button } from 'antd';
+import Sign from '../components/sign/index'
 // import Form from './components/hook-form/index'
-
 
 function App() {
   return (
     <div className="App">
       <Link to={`/about`}>about</Link> | 
       <Link to={`/posts`}>posts</Link>
+      <Button type="primary">antd Button</Button>
       <ContextApp />
       <TaskApp />
       <ContextWithReducer ></ContextWithReducer>
@@ -29,6 +31,7 @@ function App() {
       <Counter />
       <Lazy />
       <Memo/>
+      <Sign />
       {/* <Form /> */}
     </div>
   );
